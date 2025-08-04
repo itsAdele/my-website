@@ -1,0 +1,76 @@
+html{
+    color: rgb(7, 7, 100)
+}
+body{
+    background-color:rgb(236, 236, 236);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+header {
+    background-image: url(../img/vase1.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 200px 80px;
+    color: white;
+}
+header img{
+    width: 100px;
+    height: 100px;
+    text-align: left;
+}
+header h1, header p{
+    color: rgb(7, 7, 100);
+    text-align: left;
+    font-style: italic;
+}
+header, section, footer {
+  background-color: rgba(169, 235, 247, 0.848); 
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 1300px;
+  border-radius: 16px; 
+}
+h2, h3, h4, h5{
+    font-size: xx-large;
+}
+.how-content{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.how ul {
+  list-style-type: none;
+  padding-left: 50px;
+}
+.how-content img{
+   text-align: left;
+   max-width: 50%;
+}
+.how-content ul{
+    text-align: left;
+    max-width: 50%;
+}
+.services-content{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.services-content img{
+    text-align: right;
+    max-width: 50%;
+}
+.services-content ul{
+    text-align: left;
+    max-width: 50%;
+}
+.icon{
+    width: 32px;
+    height:32px;
+    display: inline;
+    margin: 30px;
+    filter: brightness(0) saturate(100%) invert(11%) sepia(27%) saturate(4115%) hue-rotate(217deg) brightness(93%) contrast(95%);
+}

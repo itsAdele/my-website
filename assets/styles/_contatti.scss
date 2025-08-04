@@ -1,0 +1,23 @@
+    // contatti
+
+.container-form{
+    color:$secondary-color;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+form{
+    color:$secondary-color;
+    font-weight: bold;
+    padding: 30px;
+    margin: 50px;
+    box-shadow: 0 0 10px $primary-color, 0 0 15px $primary-color;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);   
+    .btn{
+        margin-top: 20px;
+        background-color: $secondary-color;
+        color:$light-text
+    }
+}

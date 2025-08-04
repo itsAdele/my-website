@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GreenEarth è una startup impegnata nella tutela dell’ambiente attraverso progetti di riforestazione, pulizia degli oceani e promozione dell’energia sostenibile. Insieme per un futuro più verde.">
+    <meta property="og:title" content="GreenEarth, insieme per un futuro più verde">
+    <meta property="og:description" content="GreenEarth è una startup impegnata nella tutela dell’ambiente.">
+    <meta property="og:image" content="https://esempio.com/immagine.jpg" /> 
+    <meta property="og:url" content="https://esempio.com/pagina" />
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <title>GreenEarth, insieme per un futuro più verde</title>
+</head>
+
+<body>
+ <header>
+    <img src="assets/img/plant-logo-S.png" alt="logo della startup foglie in diversi verdi">
+    <h1><strong>GreenEarth</strong></h1>
+ </header>
+
+ <section class="hero">
+    <h2>proteggiamo il pianeta <br> garantiamoci un futuro</h2>
+    <br>
+    <button class="cta" aria-label="clicca per scoprire di più su di noi e sui nostri progetti">Scopri di più</button>
+ </section>
+
+ <main>
+    <section class="about">
+        <h3><strong>Chi siamo</strong></h3>
+        <p> siamo una startup che si occupa di progetti a impatto ambientale come riforestazione e pulizia degli oceani. Il nostro impegno oggi preserverà la vita domani.</p>
+    </section>
+
+    <section class="project">
+        <h3><strong>I nostri progetti</strong></h3>
+        <div class="project-grid">   
+        <figure class="energia">
+                <img src="assets/img/pala-eolica.jpg" alt="closeup di una pala eolica, nello sfondo cielo azzurro">
+                <figcaption>
+                   <h3>energie rinnovabili</h3>
+                   <p>l'energia che rispetta.</p>
+                </figcaption>
+            </figure>
+            <figure class="oceani">
+                <img src="assets/img/ocean1.JPG" alt="una busta di plastica trasparente galleggia nel mare blu">
+                <figcaption>
+                    <h3>pulizia degli oceani</h3>
+                    <p>ripuliamo i nostri oceani un detrito alla volta</p>
+                </figcaption>
+            </figure>
+            <figure class="boschi">
+                <img src="assets/img/pianta.jpg" alt="due mani piantano nel terreno un piccolo arbusto">
+                <figcaption>
+                   <h3>rimboscamento</h3>
+                   <p>diamo nuova vita dove ce n'è più bisogno</p>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <div class="modulo">
+        <h2><strong>Domande?</strong></h2>
+        <p>Se vuoi saperne di più su chi siamo, sulla nostra missione o su come unirti a noi, <br> non esitare a contattarci! </p>    
+        <form action="dati.php" method="post">
+            <fieldset>
+                <legend>Contattaci</legend>
+            
+                <ul>
+                    <li class="uno">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" class="testo" required>
+                    </li>
+                    
+                    <li class="due">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" class="testo"required>
+                    </li>
+                    
+                    <li class="tre">
+                        <label for="testo">Messaggio</label>
+                        <textarea name="testo" id="testo"></textarea>
+                    </li>
+                    
+                    <li class="quattro">
+                       <input type="submit" value="invia" class="pulsante">
+                    </li>
+                </ul> 
+            </fieldset> 
+        </form>
+    </div>
+ </main>
+
+ <footer>
+     <h4>Contattaci e seguici direttamente sui nostri social!</h4>
+     <div class="social">
+         <a href="http://www.facebook.com" target="_blank"><img src="assets/img/facebook.svg" alt="facebook" class="icon"></a>
+         <a href="http://www.instagram.com" target="_blank"><img src="assets/img/instagram.svg" alt="instagram" class="icon"></a>
+         <a href="http://www.x.com" target="_blank"><img src="assets/img/x.svg" alt="x" class="icon"></a>
+     </div>
+     <p>&copy; 2025 GreenEarth</p>
+ </footer>
+
+</body>
+</html>

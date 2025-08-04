@@ -1,0 +1,40 @@
+    // portfolio
+
+.curriculum {
+    h1{
+        color:$secondary-color;
+        padding-top: 60px ;
+        padding-bottom: 50px;   
+    }   
+}    
+
+.card{
+    padding: 20px 30px;
+    color:$primary-color;
+    box-shadow: 0 0 10px $secondary-color, 0 0 15px $secondary-color;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);  
+}
+
+.main-content-portfolio h1{
+    
+    color: $secondary-color;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.card{
+      box-shadow: 0 0 10px $secondary-color, 0 0 15px $secondary-color;  
+      .btn{
+        background-color: $secondary-color;
+      }
+      h5{
+        color: $secondary-color;
+      }
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
